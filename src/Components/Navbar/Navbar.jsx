@@ -6,12 +6,14 @@ export const Navbar = () => {
       <div className="nav-logo">
         Travelo
         <ul className="nav-menu">
-          <li>Home</li>
-          <li>Explore</li>
-          <li>About</li>
-          <li className="nav-contact">Contnet</li>
+          <li className="nav-menu-links">Home</li>
+          <li className="nav-menu-links">Explore</li>
+          <li className="nav-menu-links">About</li>
+          <li className="nav-menu-links">Contnet</li>
         </ul>
       </div>
     </div>
   );
 };
+
+//className="nav-contact"
